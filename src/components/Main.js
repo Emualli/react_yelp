@@ -7,7 +7,7 @@ class AppComponent extends React.Component {
   render() {
     return (
       <div className="index">
-        <div className="notice"><MapContainer /></div>
+        <div className="notice" style={{ height: 1000}}><MapContainer /></div>
       </div>
     );
   }
